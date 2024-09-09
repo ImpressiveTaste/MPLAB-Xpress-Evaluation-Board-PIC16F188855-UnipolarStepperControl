@@ -1,0 +1,336 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18855 ]
+[d frameptr 6 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"26 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _Timer0_OverflowCallback Timer0_OverflowCallback `(v  1 e 1 0 ]
+"31
+[v _MySwitchInterruptHandler MySwitchInterruptHandler `(v  1 e 1 0 ]
+"37
+[v _main main `(i  1 e 2 0 ]
+"76
+[v _StepperOff StepperOff `(v  1 e 1 0 ]
+"84
+[v _fullStep fullStep `(v  1 e 1 0 ]
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"59
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"92
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"101
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"105
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"121
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"133
+[v _SW_ISR SW_ISR `(v  1 e 1 0 ]
+"148
+[v _SW_SetInterruptHandler SW_SetInterruptHandler `(v  1 e 1 0 ]
+"155
+[v _SW_DefaultInterruptHandler SW_DefaultInterruptHandler `(v  1 e 1 0 ]
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"53 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"78
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+"83
+[v _TMR0_Stop TMR0_Stop `(v  1 e 1 0 ]
+"104
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"110
+[v _TMR0_OverflowISR TMR0_OverflowISR `(v  1 e 1 0 ]
+"120
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"125
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+[s S168 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"364 C:/Users/M77783/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.25.389/xc8\pic\include\proc\pic16f18855.h
+[u S173 . 1 `S168 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES173  1 e 1 @11 ]
+"591
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"653
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"715
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"777
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"839
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+[s S271 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"856
+[u S280 . 1 `S271 1 . 1 0 ]
+[v _LATBbits LATBbits `VES280  1 e 1 @23 ]
+"901
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"963
+[v _TMR0L TMR0L `VEuc  1 e 1 @28 ]
+"1101
+[v _TMR0H TMR0H `VEuc  1 e 1 @29 ]
+"1355
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @30 ]
+[s S387 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1375
+[s S393 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S398 . 1 `S387 1 . 1 0 `S393 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES398  1 e 1 @30 ]
+"1420
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @31 ]
+[s S155 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"21002
+[u S160 . 1 `S155 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES160  1 e 1 @1804 ]
+[s S89 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"21424
+[u S94 . 1 `S89 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES94  1 e 1 @1814 ]
+"23184
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"23324
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"23421
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"23472
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"23530
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"32859
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"32921
+[v _WPUA WPUA `VEuc  1 e 1 @3897 ]
+"32983
+[v _ODCONA ODCONA `VEuc  1 e 1 @3898 ]
+"33045
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3899 ]
+"33107
+[v _INLVLA INLVLA `VEuc  1 e 1 @3900 ]
+"33169
+[v _IOCAP IOCAP `VEuc  1 e 1 @3901 ]
+"33231
+[v _IOCAN IOCAN `VEuc  1 e 1 @3902 ]
+"33293
+[v _IOCAF IOCAF `VEuc  1 e 1 @3903 ]
+[s S102 . 1 `uc 1 IOCAF0 1 0 :1:0 
+`uc 1 IOCAF1 1 0 :1:1 
+`uc 1 IOCAF2 1 0 :1:2 
+`uc 1 IOCAF3 1 0 :1:3 
+`uc 1 IOCAF4 1 0 :1:4 
+`uc 1 IOCAF5 1 0 :1:5 
+`uc 1 IOCAF6 1 0 :1:6 
+`uc 1 IOCAF7 1 0 :1:7 
+]
+"33310
+[u S111 . 1 `S102 1 . 1 0 ]
+"33310
+"33310
+[v _IOCAFbits IOCAFbits `VES111  1 e 1 @3903 ]
+"33479
+[v _ANSELB ANSELB `VEuc  1 e 1 @3907 ]
+"33541
+[v _WPUB WPUB `VEuc  1 e 1 @3908 ]
+"33603
+[v _ODCONB ODCONB `VEuc  1 e 1 @3909 ]
+"33665
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3910 ]
+"33727
+[v _INLVLB INLVLB `VEuc  1 e 1 @3911 ]
+"33789
+[v _IOCBP IOCBP `VEuc  1 e 1 @3912 ]
+"33851
+[v _IOCBN IOCBN `VEuc  1 e 1 @3913 ]
+"33913
+[v _IOCBF IOCBF `VEuc  1 e 1 @3914 ]
+"34099
+[v _ANSELC ANSELC `VEuc  1 e 1 @3918 ]
+"34161
+[v _WPUC WPUC `VEuc  1 e 1 @3919 ]
+"34223
+[v _ODCONC ODCONC `VEuc  1 e 1 @3920 ]
+"34285
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3921 ]
+"34347
+[v _INLVLC INLVLC `VEuc  1 e 1 @3922 ]
+"34409
+[v _IOCCP IOCCP `VEuc  1 e 1 @3923 ]
+"34471
+[v _IOCCN IOCCN `VEuc  1 e 1 @3924 ]
+"34533
+[v _IOCCF IOCCF `VEuc  1 e 1 @3925 ]
+"34719
+[v _WPUE WPUE `VEuc  1 e 1 @3941 ]
+"34740
+[v _INLVLE INLVLE `VEuc  1 e 1 @3944 ]
+"34761
+[v _IOCEP IOCEP `VEuc  1 e 1 @3945 ]
+"34782
+[v _IOCEN IOCEN `VEuc  1 e 1 @3946 ]
+"34803
+[v _IOCEF IOCEF `VEuc  1 e 1 @3947 ]
+"15 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _timerCounter timerCounter `VEul  1 e 4 0 ]
+"16
+[v _ButtonPress ButtonPress `VEi  1 e 2 0 ]
+"17
+[v _currentSpeed currentSpeed `ul  1 e 4 0 ]
+"18
+[v _stepTime stepTime `ul  1 e 4 0 ]
+"38 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"37 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/pins.c
+[v _SW_InterruptHandler SW_InterruptHandler `*.37(v  1 e 2 0 ]
+"46 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_OverflowCallback TMR0_OverflowCallback `*.37(v  1 s 2 TMR0_OverflowCallback ]
+"37 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"55
+[v main@stepNumber stepNumber `i  1 a 2 12 ]
+"54
+[v main@motorRunning motorRunning `i  1 a 2 8 ]
+"73
+} 0
+"84
+[v _fullStep fullStep `(v  1 e 1 0 ]
+{
+[v fullStep@stepNumber stepNumber `i  1 p 2 0 ]
+[v fullStep@direction direction `i  1 p 2 2 ]
+"140
+} 0
+"78 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Start TMR0_Start `(v  1 e 1 0 ]
+{
+"81
+} 0
+"76 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _StepperOff StepperOff `(v  1 e 1 0 ]
+{
+"81
+} 0
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"45
+} 0
+"53 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"120
+[v _TMR0_OverflowCallbackRegister TMR0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v TMR0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.37(v  1 p 2 0 ]
+"123
+} 0
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"148
+[v _SW_SetInterruptHandler SW_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v SW_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"150
+} 0
+"40 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"101
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"103
+} 0
+"39 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"59 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"81
+} 0
+"110 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/timer/src/tmr0.c
+[v _TMR0_OverflowISR TMR0_OverflowISR `(v  1 e 1 0 ]
+{
+"118
+} 0
+"125
+[v _TMR0_DefaultOverflowCallback TMR0_DefaultOverflowCallback `(v  1 s 1 TMR0_DefaultOverflowCallback ]
+{
+"129
+} 0
+"26 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _Timer0_OverflowCallback Timer0_OverflowCallback `(v  1 e 1 0 ]
+{
+"28
+} 0
+"121 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"128
+} 0
+"133
+[v _SW_ISR SW_ISR `(v  1 e 1 0 ]
+{
+"143
+} 0
+"31 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\main.c
+[v _MySwitchInterruptHandler MySwitchInterruptHandler `(v  1 e 1 0 ]
+{
+"34
+} 0
+"155 C:\LocalWork\MotorControl\UnipolarStepperMotor-Control.X\mcc_generated_files/system/src/pins.c
+[v _SW_DefaultInterruptHandler SW_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"158
+} 0
